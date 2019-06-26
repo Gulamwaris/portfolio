@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+
+body{
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
+    
+}
+hr{
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+/* Nav */
+
+.navbar{
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    font-size: 0.9rem;
+    background: rgba(0, 0, 0, 0.6)!important;
+
+}
+
+.navbar-brand {
+    color: #D7D708!important;
+}
+
+.navbar-nav li{
+    padding-right: .8rem;
+
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    padding-top:.7rem;
+    color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover{
+    color:#1ebba3;
+}
+
+.home-inner{
+    background-image: url(https://images.unsplash.com/photo-1489844097929-c8d5b91c456e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1052&q=80);
+}
+.caption{
+    position: absolute;
+    width: 100%;
+    max-width: 100;
+    top: 38%;
+    z-index: 1;
+    color :black;
+    
+}
+
+.caption h1{
+    font-weight: 700;
+    font-size: 3.8rem;
+    letter-spacing: .2rem;
+    text-shadow: .1rem .1rem .8 black;
+    padding-bottom: .1rem;
+}
+
+.caption h3{
+    font-size:2rem;
+    text-shadow: .1rem .1rem .8 black;
+    padding-bottom: .5rem;
+}
+
+.btn-lg{
+    border-width: medium;
+    border-radius: 0;
+    padding: .6rem 1.3rem;
+    font-size: 1.1rem;
+    color: black;
+    
+    border : 1px solid black;
+
+}
+
+
+
+
+
+
+
+
+/*============= COURSE SECTION =============*/
+
+#course{
+    margin-top :10px;
+}
+
+.me{
+    border:1px solid black;
+    box-shadow: 0 4px 8px;
+    font-size: 1rem;
+    color: black!important;
+}
+
+/* Qualities */
+.progress{
+    margin: 20px 20px
+}
+
+#resources{
+    margin-top: 20px;
+}
+
+.anim{
+     
+    -webkit-animation-delay: 1s; 
+    -webkit-animation-iteration-count: 3  
+}
+
+
+
+
+/
